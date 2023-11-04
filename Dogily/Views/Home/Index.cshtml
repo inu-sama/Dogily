@@ -1,0 +1,89 @@
+﻿
+@{
+    ViewBag.Title = "Dogily Pet Shop";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+<div class="container-fluid p-0" style="overflow: hidden; height: 580px; position: relative">
+    <video src="https://dogily.vn/wp-content/uploads/2021/10/dogilybanner002.mp4" autoplay preload="auto" muted style="width: 100%; height: fit-content;" loop></video>
+    <div style="width: 50%; position: absolute; z-index: 99; top: 25%; margin: 0 25%;" class="container">
+        <h1 style="color: #fcb000; font-size: 4rem; margin: 0 0.5% 3%;">
+            Dogily.vn
+        </h1>
+        <p style="color: #fff">
+            <b>Dogily – Pets are Family:</b> Trang web chia sẻ về kinh nghiệm chăm sóc, huấn luyện chó mèo và giới thiệu các sản phẩm dịch vụ dành cho thú cưng.
+        </p>
+        <button type="button" class="btn p-3 m-2" style="background-color: #fcb000; color: #fff; font-weight: 600">CHÓ CẢNH</button>
+        <button type="button" class="btn p-3 m-2" style="background-color: #000099; color: #fff; font-weight: 600">MÈO CẢNH</button>
+    </div>
+</div>
+<div class="container col-5">
+    <h1 style="font-size: 2rem; font-weight: 600; text-align: center" class="m-2">
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+        PHỤ KIỆN CHÓ MÈO, THÚ CƯNG
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+    </h1>
+</div>
+@Html.Partial("~/Views/Home/MainCategories.cshtml")
+<div class="container col-5 mt-5">
+    <h1 style="font-size: 2rem; font-weight: 600; text-align: center" class="m-2">
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+        CAFE CHÓ MÈO, THÚ CƯNG
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+    </h1>
+</div>
+<div class="container col-10">
+    <div class="row" style="margin: 1% 0;">
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/12/tiem-cafe-thu-cung-ca-phe-cho-meo-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CAFE THÚ CƯNG</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/11/cafe-thu-cung-400x400.png" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CAFE CHÓ MÈO ĐÀ LẠT</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/12/tiem-cafe-cho-da-lat-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CAFE CHÓ ĐÀ LẠT</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/11/cafe-meo-da-lat-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CAFE MÈO ĐÀ LẠT</p>
+        </a>
+    </div>
+</div>
+<div class="container col-5 mt-5">
+    <h1 style="font-size: 2rem; font-weight: 600; text-align: center" class="m-2">
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+        DỊCH VỤ THÚ CƯNG
+        <sup style="color: #fcb000; font-size: 2.3rem; font-weight: 900">___</sup>
+    </h1>
+</div>
+<div class="container col-10">
+    <div class="row" style="margin: 1% 0;">
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/07/spa-grooming-dogily-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">SPA CHÓ MÈO</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/11/Huong-dan-cat-tia-long-thu-cung-tai-nha-dung-chuan-salon-Buoc-7-Cat-tia-long-phan-mat-min-400x400.jpeg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CẮT TỈA LÔNG CHÓ</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/11/cac-buoc-tien-hanh-cao-long-cho-cho-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CẠO LÔNG CHÓ</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2022/11/Nen-cao-long-meo-khi-troi-oi-buc-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CẠO LÔNG MÈO</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2020/01/kinh-nghiem-cat-tia-mong-chan-cho-cho-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">CẮT MÓNG CHÓ MÈO</p>
+        </a>
+        <a href="/Home/Category" class="col-3 g-3 footer_link" style="text-align: center;">
+            <img src="https://dogily.vn/wp-content/uploads/2021/10/huong-dan-cach-tam-cho-cho-corgi-400x400.jpg" class="img-fluid rounded" />
+            <p style="margin: 2% 0; font-weight: 600">TẮM CHÓ MÈO</p>
+        </a>
+    </div>
+</div>
+
